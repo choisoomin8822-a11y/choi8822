@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-pretendard {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  }
+  .font-outfit {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  .font-orbitron {
+    font-family: 'Orbitron', monospace;
+  }
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .font-serif-kr {
+    font-family: 'Noto Serif KR', serif;
+  }
+  .font-black-han {
+    font-family: 'Black Han Sans', sans-serif;
+  }
+  .font-jetbrains {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Custom text shadows for camera timestamp legibility on any background */
+  .stamp-shadow-sample {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45), 0 2px 8px rgba(0, 0, 0, 0.35);
+  }
+  .stamp-shadow-strong {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 12px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0.9);
+  }
+  .stamp-outline {
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .stamp-shadow-glow {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 2px 6px rgba(0, 0, 0, 0.5);
+  }
+}
